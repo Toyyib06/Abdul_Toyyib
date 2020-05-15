@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 15px;
+}
+
+.wrapper h1 {
+    font-family: 'Poppins';
+    font-weight: 400;
+}
+
+p {
+    font-family: 'Poppins';
+    font-weight: 200;
+}
+
+header {
+    text-align: center;
+}
+
+#light {
+    font-family: 'Poppins';
+    font-weight: 200 ;
+    
+}
+
+.wrapper {
+    padding: 0px ;
+    justify-content: center;
+}
+
+.supervisor {
+    box-shadow: 0px 0px 10px 0px hsl(100, 30%, 20%, 50%);
+    height: 250px;
+    border-radius: 10px;
+    padding-left: 20px;
+    border-top: 5px solid hsl(180, 62%, 55%);
+    margin-top: 30px;
+}
+
+.team {
+    box-shadow: 0px 0px 10px 0px hsl(100, 30%, 20%, 50%);
+    height: 250px;
+    border-radius: 10px;
+    padding-left: 20px;
+    border-top: 5px solid hsl(0, 78%, 62%);
+    margin-top: 30px;
+}
+
+.karma {
+    box-shadow: 0px 0px 10px 0px hsl(100, 30%, 20%, 50%);
+    height: 250px;
+    border-radius: 10px;
+    padding-left: 20px;
+    border-top: 5px solid hsl(34, 97%, 64%);
+    margin-top: 30px;
+}
+
+.calculator {
+    box-shadow: 0px 0px 10px 0px hsl(100, 30%, 20%, 50%);
+    height: 250px;
+    border-radius: 10px;
+    padding-left: 20px;
+    border-top: 5px solid hsl(212, 86%, 64%);
+    margin-top: 30px;
+}
+
+#icon {display: block;
+    float: right;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.calculator #icon {
+    position: relative;
+    bottom: 20px;
+}
+
+footer, a {
+    text-align: center;
+    text-decoration: none;
+}
+
+
+
+/* THIS CODES DOES'NT COME OUT WELL IN EXPLORER BUT
+    WORKS PERFECTLY IN CHROME, SO I DECIDED TO USE
+    FLEX INSTEAD OF GRID
+
+@media (min-width:700px) {
+    header {
+        text-align: center;
+    }
+
+    .wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .supervisor{
+        grid-column: 1;
+        position: relative;
+        top: 150px;
+        margin-right: 20px;
+    }
+
+    .flex {
+        grid-column: 2;
+    }
+
+    .calculator {
+        grid-column: 3;
+        position: relative;
+        top: 150px;
+        margin-left: 20px;
+    }
+}
+*/
+ 
+
+/* LARGE SCREEN USING FLEX*/
+
+@media (min-width:700px) {
+    .wrapper {
+        display: flex;
+        margin: 10px;
+    }
+
+    .supervisor,
+    .calculator {
+        position: relative;
+        top: 150px;
+        margin: 10px;
+        width: 400px;
+    }
+
+}
