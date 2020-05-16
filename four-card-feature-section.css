@@ -69,9 +69,26 @@ header {
     margin-top: 30px;
 }
 
-#icon {display: block;
+#icon-supervisor {display: block;
     float: right;
     padding: 20px;
+    margin-top: 20px;
+}
+
+#icon-team {display: block;
+    float: right;
+    padding: 25px;
+}
+
+#icon-karma {display: block;
+    float: right;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+#icon-cal {display: block;
+    float: right;
+    padding: 25px;
     margin-top: 20px;
 }
 
@@ -136,6 +153,20 @@ footer, a {
         top: 150px;
         margin: 10px;
         width: 400px;
+    }
+
+    #icon-cal {
+        display: block;
+        position: relative;
+        right: 15px;
+        padding: 0px;
+    }
+
+    #icon-team {
+    display: block;
+    position: relative;
+    bottom: 5px;
+    margin-top: 2px;
     }
 
 }
