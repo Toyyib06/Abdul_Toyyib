@@ -166,4 +166,8 @@ footer, a {
         bottom: 20px;
     }
 
+    .team, .karma {
+        width: 400px;
+    }
+
 }
